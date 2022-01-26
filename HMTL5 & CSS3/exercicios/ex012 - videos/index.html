@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    
+    <h1>Vídeos hospedados localmente</h1>
+    <p>O vídeo abaixo estão sendo hospedados no meu próprio computador.</p>
+    <video width="560" height="315" poster="imagens/limoes-capa.png" controls loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Infelizmente seu navegador ainda não tem suporte para vídeos, experimente abrir o site em outro navegador.</p>
+    </video>
+    
+    <h1>Vídeos hospedados no Youtube</h1>
+    <p>O vídeo abaixo está sendo hospedado no Youtube, isso diminuirá o consumo de banda no site.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ucAzRBkNS_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Vídeos hospedados no Vimeo</h1>
+    <p>Outra opção para hospedagem de sites, porém, dessa vez voltada em manter seu conteúdo visível apenas para determinado grupo, é a plataforma Vimeo, que diferentemente do Youtube, é uma plataforma paga.</p>
+    <iframe src="https://player.vimeo.com/video/440813080?h=745e08b47e&color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
